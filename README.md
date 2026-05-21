@@ -1,10 +1,12 @@
 <div align="center">
 
-█████╗ ████████╗██╗ ██████╗      
+```
+ █████╗ ████████╗██╗ ██████╗      
 ██╔══██╗╚══██╔══╝██║██╔═══██╗     
-███████║   ██║   ██║██║   ██║     ← ATIQ IN ASCII
+███████║   ██║   ██║██║   ██║     
 ██╔══██║   ██║   ██║██║▄▄ ██║     
 ██║  ██║   ██║   ██║╚██████╔╝     
+╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚══▀▀═╝     
 
 ██████╗ ██████╗  ██████╗  ██████╗ ██████╗  █████╗ ███╗   ███╗███╗   ███╗███████╗██████╗ 
 ██╔══██╗██╔══██╗██╔═══██╗██╔════╝ ██╔══██╗██╔══██╗████╗ ████║████╗ ████║██╔════╝██╔══██╗
@@ -12,28 +14,27 @@
 ██╔═══╝ ██╔══██╗██║   ██║██║   ██║██╔══██╗██╔══██║██║╚██╔╝██║██║╚██╔╝██║██╔══╝  ██╔══██╗
 ██║     ██║  ██║╚██████╔╝╚██████╔╝██║  ██║██║  ██║██║ ╚═╝ ██║██║ ╚═╝ ██║███████╗██║  ██║
 ╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝
-         ↑ PROGRAMMER IN ASCII ↑
+```
+
+### 💻 Full-Stack Developer • 📊 Data Science Learner • 🚀 Problem Solver
 
 <!-- Animated Typing Header -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=2E75B6&center=true&vCenter=true&width=600&lines=Hey+There!+I'm+Syed+Atiq+👋;Full-Stack+Developer+💻;Data+Science+Learner+📊;Problem+Solver+🧠;Building+Real+Things+🚀" alt="Typing SVG" />
 
 <br/>
 
-<!-- Profile Banner Description -->
 <p>
   <img src="https://img.shields.io/badge/Student-B.Tech%20CSE%20(IoT)-blue?style=for-the-badge&logo=graduation-cap&logoColor=white"/>
   <img src="https://img.shields.io/badge/CGPA-7.83%2F10-brightgreen?style=for-the-badge&logo=star&logoColor=white"/>
   <img src="https://img.shields.io/badge/Location-Vijayawada%2C%20India-orange?style=for-the-badge&logo=google-maps&logoColor=white"/>
 </p>
 
-<!-- Visitor Counter -->
 <img src="https://komarev.com/ghpvc/?username=Syed-Atiq-pro&label=Profile+Views&color=2E75B6&style=flat-square" alt="Profile Views"/>
 
 </div>
 
 ---
 
-<!-- About Me Section -->
 ## 🙋‍♂️ About Me
 
 ```python
@@ -46,12 +47,11 @@ class SyedAtiq:
     cgpa       = 7.83
 
     currently_learning = ["NumPy", "Pandas", "Data Analysis"]
-    
     goal       = "Internship in Web Dev or Data Engineering"
     fun_fact   = "I shipped 3 real apps with ZERO backend! 🚀"
-    
+
     def say_hi(self):
-        print("Thanks for visiting my profile! Let's build something awesome together!")
+        print("Thanks for visiting! Let's build something awesome together!")
 
 me = SyedAtiq()
 me.say_hi()
@@ -59,7 +59,6 @@ me.say_hi()
 
 ---
 
-<!-- Tech Stack Section -->
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -91,7 +90,6 @@ me.say_hi()
 
 ---
 
-<!-- Projects Section -->
 ## 🚀 Featured Projects
 
 <div align="center">
@@ -100,16 +98,15 @@ me.say_hi()
 |-----------|---------------|---------|---------|
 | **🌱 Habit Flow** | PWA tracking 50+ daily habits with streaks & motivational UI | HTML • CSS • JS | [▶ Live Demo](https://Syed-Atiq-pro.github.io/Habit-Flow-Ultimate-v2.0) |
 | **💰 WalletX** | Finance manager with 100+ transaction tracking & 20+ currency converter | HTML • CSS • JS | [▶ Live Demo](https://Syed-Atiq-pro.github.io/Wallet-v2.0) |
-| **📚 Whub** | Student academic assistant with attendance alerts & performance analysis | HTML • CSS • JS | [▶ Live Demo](https://Syed-Atiq-pro.github.io/Whub) |
-| **✂️ Rock Paper Scissors** | Interactive CLI game with score tracking & statistics | Python | [📂 Code](https://github.com/Syed-Atiq-pro/Python-Projects) |
-| **🏏 Hand Cricket** | Cricket simulation with game logic & match statistics | Python | [📂 Code](https://github.com/Syed-Atiq-pro/Python-Projects) |
-| **🎯 Guess The Number** | Number game with smart hints, difficulty levels & replay | Python | [📂 Code](https://github.com/Syed-Atiq-pro/Python-Projects) |
+| **📚 Whub** | Student assistant with attendance alerts & performance analysis | HTML • CSS • JS | [▶ Live Demo](https://Syed-Atiq-pro.github.io/Whub) |
+| **✂️ Rock Paper Scissors** | Interactive CLI game with score tracking & stats | Python | [📂 Code](https://github.com/Syed-Atiq-pro/Python-Projects) |
+| **🏏 Hand Cricket** | Cricket simulation with full match logic & statistics | Python | [📂 Code](https://github.com/Syed-Atiq-pro/Python-Projects) |
+| **🎯 Guess The Number** | Number game with smart hints & difficulty levels | Python | [📂 Code](https://github.com/Syed-Atiq-pro/Python-Projects) |
 
 </div>
 
 ---
 
-<!-- GitHub Stats Section -->
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -133,13 +130,12 @@ me.say_hi()
 
 ---
 
-<!-- Currently Learning Section -->
-## 📚 Currently Learning
+## 📚 2025 Learning Progress
 
 <div align="center">
 
 ```
-🎯 My 2025 Learning Path
+🎯 My Learning Path
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Python Basics      ████████████████████  100% ✅
@@ -155,8 +151,7 @@ Machine Learning   ░░░░░░░░░░░░░░░░░░░░ 
 
 ---
 
-<!-- Goals Section -->
-## 🎯 My Goals for 2025
+## 🎯 Goals 2025
 
 <div align="center">
 
@@ -174,7 +169,6 @@ Machine Learning   ░░░░░░░░░░░░░░░░░░░░ 
 
 ---
 
-<!-- Connect Section -->
 ## 🤝 Let's Connect!
 
 <div align="center">
@@ -196,27 +190,19 @@ Machine Learning   ░░░░░░░░░░░░░░░░░░░░ 
 
 ---
 
-<!-- Fun Section -->
-## ⚡ Fun Facts About Me
+## ⚡ Fun Facts
 
-- 🎮 I coded **3 Python games** from scratch to learn programming logic
-- 🌐 My apps work with **zero backend** — all client-side JavaScript magic
 - 📱 I learn and code entirely from my **phone** — no laptop needed!
-- 🏏 **Hand Cricket** is my favourite Python project — it's India's childhood game!
-- 🎯 I participated in **Smart India Hackathon 2024** — India's biggest national hackathon
+- 🌐 My 3 web apps work with **zero backend** — pure JavaScript magic
+- 🏏 **Hand Cricket** is my favourite project — it's India's childhood game!
+- 🎯 Participated in **Smart India Hackathon 2024** — India's biggest hackathon
+- 🚀 **3 deployed apps** and counting!
 
 ---
 
 <div align="center">
 
-<!-- Snake Animation -->
 <img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
-
-</div>
-
----
-
-<div align="center">
 
 **💡 Open to internship opportunities in Web Development & Data Science!**
 
