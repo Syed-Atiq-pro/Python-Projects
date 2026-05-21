@@ -1,309 +1,202 @@
 <div align="center">
 
-```
-██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗
-██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║
-██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║
-██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║
-██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║
-╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+<!-- Animated Typing Header -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=2E75B6&center=true&vCenter=true&width=600&lines=Hey+There!+I'm+Syed+Atiq+👋;Full-Stack+Developer+💻;Data+Science+Learner+📊;Problem+Solver+🧠;Building+Real+Things+🚀" alt="Typing SVG" />
 
-██████╗ ██████╗  ██████╗      ██╗███████╗ ██████╗████████╗███████╗
-██╔══██╗██╔══██╗██╔═══██╗     ██║██╔════╝██╔════╝╚══██╔══╝██╔════╝
-██████╔╝██████╔╝██║   ██║     ██║█████╗  ██║        ██║   ███████╗
-██╔═══╝ ██╔══██╗██║   ██║██   ██║██╔══╝  ██║        ██║   ╚════██║
-██║     ██║  ██║╚██████╔╝╚█████╔╝███████╗╚██████╗   ██║   ███████║
-╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚════╝ ╚══════╝ ╚═════╝   ╚═╝   ╚══════╝
-```
+<br/>
 
-### 🛠️ Real Python Projects Built While Learning — By a First-Year CS Student
+<!-- Profile Banner Description -->
+<p>
+  <img src="https://img.shields.io/badge/Student-B.Tech%20CSE%20(IoT)-blue?style=for-the-badge&logo=graduation-cap&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CGPA-7.83%2F10-brightgreen?style=for-the-badge&logo=star&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Location-Vijayawada%2C%20India-orange?style=for-the-badge&logo=google-maps&logoColor=white"/>
+</p>
 
-<br>
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
-![Projects](https://img.shields.io/badge/Projects-Building%20🔨-brightgreen?style=for-the-badge)
-![Beginner](https://img.shields.io/badge/Level-Beginner%20Friendly-blue?style=for-the-badge)
-![Live](https://img.shields.io/badge/Live%20on-GitHub%20Pages-181717?style=for-the-badge&logo=github)
-
-<br>
-
-> **"Tell me and I forget. Teach me and I remember. Involve me and I learn."** — Benjamin Franklin
-
----
+<!-- Visitor Counter -->
+<img src="https://komarev.com/ghpvc/?username=Syed-Atiq-pro&label=Profile+Views&color=2E75B6&style=flat-square" alt="Profile Views"/>
 
 </div>
 
-## 👨‍💻 About This Repository
-
-I'm **Syed Atiq** — a B.Tech CSE (IoT) student from Vijayawada, India, learning Python from absolute zero.
-
-This repo is where I **apply** what I learn. Every project here was built hands-on by me while studying Python concepts. No copy-paste, no shortcuts — just real code, real logic, real learning.
-
-**The idea is simple:**
-> Learn a concept → Build something with it → Push to GitHub → Repeat. 🔁
-
 ---
 
-## 🚀 Projects Collection
-
----
-
-### 🧮 Project 01 — Calculator
-
-![Python](https://img.shields.io/badge/Python-Basics-3776AB?style=flat-square&logo=python&logoColor=white)
-![Concepts](https://img.shields.io/badge/Concepts-Functions%20%7C%20Conditions%20%7C%20Loops-orange?style=flat-square)
-
-**What it does:**
-A clean command-line calculator that performs addition, subtraction, multiplication, and division with proper error handling (like divide-by-zero protection).
-
-**What I learned building this:**
-- Writing and calling functions
-- Using if/elif/else conditions
-- Handling user input safely
-- Basic error handling with try/except
+<!-- About Me Section -->
+## 🙋‍♂️ About Me
 
 ```python
-def calculator():
-    print("=" * 30)
-    print("   🧮 Simple Python Calculator")
-    print("=" * 30)
+class SyedAtiq:
+    name       = "Syed Atiq"
+    role       = ["Full-Stack Developer", "Data Science Learner"]
+    college    = "PSCMR College of Engineering & Technology"
+    degree     = "B.Tech CSE (IoT) | Graduating 2028"
+    location   = "Vijayawada, Andhra Pradesh, India"
+    cgpa       = 7.83
+
+    currently_learning = ["NumPy", "Pandas", "Data Analysis"]
     
-    num1 = float(input("Enter first number: "))
-    op   = input("Enter operator (+, -, *, /): ")
-    num2 = float(input("Enter second number: "))
+    goal       = "Internship in Web Dev or Data Engineering"
+    fun_fact   = "I shipped 3 real apps with ZERO backend! 🚀"
+    
+    def say_hi(self):
+        print("Thanks for visiting my profile! Let's build something awesome together!")
 
-    if op == '+':   result = num1 + num2
-    elif op == '-': result = num1 - num2
-    elif op == '*': result = num1 * num2
-    elif op == '/':
-        if num2 == 0:
-            return print("❌ Error: Cannot divide by zero!")
-        result = num1 / num2
-    else:
-        return print("❌ Invalid operator!")
-
-    print(f"\n✅ Result: {num1} {op} {num2} = {result}")
-
-calculator()
+me = SyedAtiq()
+me.say_hi()
 ```
 
 ---
 
-### 🎲 Project 02 — Number Guessing Game
-
-![Python](https://img.shields.io/badge/Python-Basics-3776AB?style=flat-square&logo=python&logoColor=white)
-![Concepts](https://img.shields.io/badge/Concepts-Random%20%7C%20Loops%20%7C%20Logic-orange?style=flat-square)
-
-**What it does:**
-The computer picks a secret number between 1–100. You get hints (higher/lower) and limited attempts to guess it.
-
-**What I learned building this:**
-- Using the `random` module
-- while loops with conditions
-- Giving user feedback based on logic
-- Counting attempts
-
-```python
-import random
-
-def guessing_game():
-    secret = random.randint(1, 100)
-    attempts = 0
-    max_tries = 7
-
-    print("🎲 I'm thinking of a number between 1 and 100!")
-    print(f"   You have {max_tries} attempts. Good luck!\n")
-
-    while attempts < max_tries:
-        guess = int(input(f"Attempt {attempts+1}/{max_tries} → Your guess: "))
-        attempts += 1
-
-        if guess < secret:
-            print("   📈 Too LOW! Go higher.\n")
-        elif guess > secret:
-            print("   📉 Too HIGH! Go lower.\n")
-        else:
-            print(f"   🎉 CORRECT! You got it in {attempts} attempt(s)!")
-            return
-
-    print(f"   😔 Game Over! The number was {secret}.")
-
-guessing_game()
-```
-
----
-
-### 📋 Project 03 — To-Do List App
-
-![Python](https://img.shields.io/badge/Python-Intermediate-3776AB?style=flat-square&logo=python&logoColor=white)
-![Concepts](https://img.shields.io/badge/Concepts-Lists%20%7C%20Functions%20%7C%20Menu%20Logic-orange?style=flat-square)
-
-**What it does:**
-A terminal-based to-do list where you can add tasks, view all tasks, mark them complete, and delete them.
-
-**What I learned building this:**
-- Managing lists dynamically
-- Building a menu-driven program
-- Using functions to keep code clean
-- Real-world CRUD logic (Create, Read, Update, Delete)
-
-```python
-tasks = []
-
-def show_tasks():
-    if not tasks:
-        print("📭 No tasks yet! Add one.")
-    else:
-        print("\n📋 Your Tasks:")
-        for i, task in enumerate(tasks, 1):
-            status = "✅" if task["done"] else "⏳"
-            print(f"   {i}. {status} {task['name']}")
-
-def add_task():
-    name = input("Enter task: ")
-    tasks.append({"name": name, "done": False})
-    print(f"   ✅ '{name}' added!")
-
-def complete_task():
-    show_tasks()
-    idx = int(input("Enter task number to complete: ")) - 1
-    tasks[idx]["done"] = True
-    print("   🎉 Task marked complete!")
-
-def delete_task():
-    show_tasks()
-    idx = int(input("Enter task number to delete: ")) - 1
-    removed = tasks.pop(idx)
-    print(f"   🗑️ '{removed['name']}' deleted!")
-
-# Main menu loop
-while True:
-    print("\n" + "="*30)
-    print("  📋 TO-DO LIST — MAIN MENU")
-    print("  1. View Tasks")
-    print("  2. Add Task")
-    print("  3. Complete Task")
-    print("  4. Delete Task")
-    print("  5. Exit")
-    choice = input("\n  Choose (1-5): ")
-
-    if choice == "1":   show_tasks()
-    elif choice == "2": add_task()
-    elif choice == "3": complete_task()
-    elif choice == "4": delete_task()
-    elif choice == "5": print("👋 Goodbye!"); break
-    else: print("❌ Invalid choice.")
-```
-
----
-
-### 🔐 Project 04 — Password Strength Checker
-
-![Python](https://img.shields.io/badge/Python-Intermediate-3776AB?style=flat-square&logo=python&logoColor=white)
-![Concepts](https://img.shields.io/badge/Concepts-String%20Methods%20%7C%20Logic%20%7C%20Regex-orange?style=flat-square)
-
-**What it does:**
-Checks how strong your password is — Weak, Medium, or Strong — based on length, uppercase, numbers, and special characters.
-
-**What I learned building this:**
-- String methods (`.isupper()`, `.isdigit()`, etc.)
-- Writing scoring logic
-- Using `any()` with conditions
-
-```python
-def check_password(password):
-    score = 0
-    feedback = []
-
-    if len(password) >= 8:
-        score += 1
-    else:
-        feedback.append("❌ At least 8 characters needed")
-
-    if any(c.isupper() for c in password):
-        score += 1
-    else:
-        feedback.append("❌ Add uppercase letters")
-
-    if any(c.isdigit() for c in password):
-        score += 1
-    else:
-        feedback.append("❌ Add numbers")
-
-    if any(c in "!@#$%^&*()" for c in password):
-        score += 1
-    else:
-        feedback.append("❌ Add special characters (!@#$...)")
-
-    levels = {4: "🟢 STRONG", 3: "🟡 MEDIUM", 2: "🟠 WEAK", 1: "🔴 VERY WEAK"}
-    strength = levels.get(score, "🔴 VERY WEAK")
-
-    print(f"\n🔐 Password Strength: {strength}")
-    if feedback:
-        print("💡 Suggestions:")
-        for tip in feedback:
-            print(f"   {tip}")
-
-password = input("Enter your password: ")
-check_password(password)
-```
-
----
-
-## 📊 Projects at a Glance
-
-| # | Project | Core Concepts | Difficulty |
-|---|---------|--------------|------------|
-| 01 | 🧮 Calculator | Functions, Conditions, try/except | ⭐ Beginner |
-| 02 | 🎲 Number Guessing Game | Random, while loops, Logic | ⭐ Beginner |
-| 03 | 📋 To-Do List | Lists, CRUD, Menu Logic | ⭐⭐ Easy |
-| 04 | 🔐 Password Checker | Strings, any(), Scoring Logic | ⭐⭐ Easy |
-| 05 | 📊 Student EDA | Pandas, NumPy, Matplotlib | ⭐⭐⭐ Intermediate |
-
-> 📌 More projects being added as I level up!
-
----
-
-## ⚡ How to Run Any Project
-
-### Option 1 — Google Colab *(No Installation — Works on Phone!)*
-```
-1. Open → colab.research.google.com
-2. File → Open Notebook → GitHub tab
-3. Paste → github.com/Syed-Atiq-pro/Python-Projects
-4. Open any .ipynb and click ▶ Run
-```
-
-### Option 2 — Run Locally
-```bash
-git clone https://github.com/Syed-Atiq-pro/Python-Projects.git
-cd Python-Projects
-python project_name.py
-```
-
----
-
-## 🧠 What This Repo Proves
-
-```
-✅  I learn by building — not just reading
-✅  I write clean, readable, commented code
-✅  I push code publicly — accountability matters
-✅  I'm growing from beginner to Data Science
-✅  Every project solves a real problem
-```
-
----
-
-## 🔗 Find Me Here
+<!-- Tech Stack Section -->
+## 🛠️ Tech Stack
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-black?style=for-the-badge&logo=github)](https://Syed-Atiq-pro.github.io/portfolio)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atiq-syed-159b6b372)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/Syed-Atiq-pro)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:syedatiq4953@gmail.com)
+### 💻 Languages
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+
+### 🌐 Web Technologies
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white"/>
+
+### 📊 Data Science (Learning)
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black"/>
+
+### 🔧 Tools & Platforms
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+
+</div>
+
+---
+
+<!-- Projects Section -->
+## 🚀 Featured Projects
+
+<div align="center">
+
+| 🏆 Project | 📝 Description | 🛠️ Tech | 🔗 Live |
+|-----------|---------------|---------|---------|
+| **🌱 Habit Flow** | PWA tracking 50+ daily habits with streaks & motivational UI | HTML • CSS • JS | [▶ Live Demo](https://Syed-Atiq-pro.github.io/Habit-Flow-Ultimate-v2.0) |
+| **💰 WalletX** | Finance manager with 100+ transaction tracking & 20+ currency converter | HTML • CSS • JS | [▶ Live Demo](https://Syed-Atiq-pro.github.io/Wallet-v2.0) |
+| **📚 Whub** | Student academic assistant with attendance alerts & performance analysis | HTML • CSS • JS | [▶ Live Demo](https://Syed-Atiq-pro.github.io/Whub) |
+| **✂️ Rock Paper Scissors** | Interactive CLI game with score tracking & statistics | Python | [📂 Code](https://github.com/Syed-Atiq-pro/Python-Projects) |
+| **🏏 Hand Cricket** | Cricket simulation with game logic & match statistics | Python | [📂 Code](https://github.com/Syed-Atiq-pro/Python-Projects) |
+| **🎯 Guess The Number** | Number game with smart hints, difficulty levels & replay | Python | [📂 Code](https://github.com/Syed-Atiq-pro/Python-Projects) |
+
+</div>
+
+---
+
+<!-- GitHub Stats Section -->
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Syed-Atiq-pro&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed-Atiq-pro&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Syed-Atiq-pro&theme=tokyonight&hide_border=true" width="500"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Syed-Atiq-pro&theme=tokyonight&no-frame=true&row=1&column=6" width="700"/>
+
+</div>
+
+---
+
+<!-- Currently Learning Section -->
+## 📚 Currently Learning
+
+<div align="center">
+
+```
+🎯 My 2025 Learning Path
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Python Basics      ████████████████████  100% ✅
+NumPy              ████████░░░░░░░░░░░░   40% 🔄
+Pandas             ████░░░░░░░░░░░░░░░░   20% 📖
+Data Analysis      ██░░░░░░░░░░░░░░░░░░   10% 📖
+Machine Learning   ░░░░░░░░░░░░░░░░░░░░    0% 🔜
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+</div>
+
+---
+
+<!-- Goals Section -->
+## 🎯 My Goals for 2025
+
+<div align="center">
+
+| Status | Goal |
+|--------|------|
+| ✅ | Ship 3 production web applications |
+| ✅ | Master Python programming fundamentals |
+| ✅ | Set up professional GitHub profile |
+| 🔄 | Learn NumPy & Pandas for Data Science |
+| 🔜 | Build first Data Science project |
+| 🔜 | Secure internship in Web Dev or Data Engineering |
+| 🔜 | Contribute to Open Source |
+
+</div>
+
+---
+
+<!-- Connect Section -->
+## 🤝 Let's Connect!
+
+<div align="center">
+
+<a href="mailto:syedatiq4953@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+<a href="https://www.linkedin.com/in/atiq-syed-159b6b372">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="https://github.com/Syed-Atiq-pro">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://syed-atiq-pro.github.io/portfolio">
+  <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+<!-- Fun Section -->
+## ⚡ Fun Facts About Me
+
+- 🎮 I coded **3 Python games** from scratch to learn programming logic
+- 🌐 My apps work with **zero backend** — all client-side JavaScript magic
+- 📱 I learn and code entirely from my **phone** — no laptop needed!
+- 🏏 **Hand Cricket** is my favourite Python project — it's India's childhood game!
+- 🎯 I participated in **Smart India Hackathon 2024** — India's biggest national hackathon
+
+---
+
+<div align="center">
+
+<!-- Snake Animation -->
+<img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 
 </div>
 
@@ -311,9 +204,12 @@ python project_name.py
 
 <div align="center">
 
-**⭐ If you're also learning Python — star this repo and let's grow together!**
+**💡 Open to internship opportunities in Web Development & Data Science!**
 
-*Made with ❤️ and a lot of debugging by Syed Atiq*
-*B.Tech CSE (IoT) · PSCMR College · Vijayawada · 2024–2028*
+<img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-brightgreen?style=for-the-badge"/>
+
+⭐ **Star my repos if you find them useful!** ⭐
+
+*Last updated: May 2025*
 
 </div>
